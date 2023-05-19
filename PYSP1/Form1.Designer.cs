@@ -33,6 +33,7 @@
             this.mrcSelecciondeSexo = new System.Windows.Forms.GroupBox();
             this.cmdTOCAAQUI = new System.Windows.Forms.Button();
             this.lblEscribir = new System.Windows.Forms.Label();
+            this.cboHistorial = new System.Windows.Forms.ComboBox();
             this.mrcSelecciondeSexo.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,7 +76,7 @@
             this.cmdTOCAAQUI.Name = "cmdTOCAAQUI";
             this.cmdTOCAAQUI.Size = new System.Drawing.Size(294, 129);
             this.cmdTOCAAQUI.TabIndex = 2;
-            this.cmdTOCAAQUI.Text = "TOCAAQUI";
+            this.cmdTOCAAQUI.Text = "TOCA AQUI";
             this.cmdTOCAAQUI.UseVisualStyleBackColor = true;
             this.cmdTOCAAQUI.Click += new System.EventHandler(this.cmdTOCAAQUI_Click);
             // 
@@ -88,11 +89,22 @@
             this.lblEscribir.TabIndex = 3;
             this.lblEscribir.Click += new System.EventHandler(this.lblEscribir_Click);
             // 
+            // cboHistorial
+            // 
+            this.cboHistorial.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboHistorial.FormattingEnabled = true;
+            this.cboHistorial.Location = new System.Drawing.Point(75, 364);
+            this.cboHistorial.Name = "cboHistorial";
+            this.cboHistorial.Size = new System.Drawing.Size(202, 21);
+            this.cboHistorial.TabIndex = 4;
+            this.cboHistorial.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
             // lolI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1039, 450);
+            this.Controls.Add(this.cboHistorial);
             this.Controls.Add(this.lblEscribir);
             this.Controls.Add(this.cmdTOCAAQUI);
             this.Controls.Add(this.mrcSelecciondeSexo);
@@ -112,6 +124,7 @@
         private System.Windows.Forms.GroupBox mrcSelecciondeSexo;
         private System.Windows.Forms.Button cmdTOCAAQUI;
         private System.Windows.Forms.Label lblEscribir;
+        private System.Windows.Forms.ComboBox cboHistorial;
     }
 }
 
