@@ -16,7 +16,7 @@ namespace PYSP1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new lolI());
+            Application.Run(new frmControlesBasicos());
         }
     }
 }

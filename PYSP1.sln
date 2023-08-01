@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PYSP1", "PYSP1\PYSP1.csproj", "{B6668A3A-801A-4B80-A686-CDEA6BEECCF4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRYControlesBasicos", "PYSP1\PRYControlesBasicos.csproj", "{B6668A3A-801A-4B80-A686-CDEA6BEECCF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
